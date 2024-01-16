@@ -1,0 +1,209 @@
+.mainheader {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2e35;
+  width: 100%;
+  height: 31.25rem;
+}
+
+.mainheadercontent {
+  display: inline;
+}
+
+.mainimg {
+  display: flex;
+  justify-content: center;
+}
+
+.popular {
+  width: 100%;
+  height: 44.625rem;
+  flex-shrink: 0;
+}
+
+.popularheader {
+  margin-bottom: 2.62rem;
+}
+
+.popularheader h1 {
+  color: #333e44;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem; /* 88.889% */
+  letter-spacing: 0.0125rem;
+  margin-bottom: 1rem;
+}
+
+.popularheader p {
+  color: #475e69;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.popularbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.87rem;
+}
+
+.popularbox1 {
+  width: 22.5rem;
+  height: 27rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 32px 56px 0px rgba(0, 0, 0, 0.08);
+}
+
+.popularbox1logo {
+  display: flex;
+  width: 19.9375rem;
+  height: 11.6875rem;
+  padding: 2.6875rem 0rem 2.75rem 0rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #f5f5f5;
+  margin: 1.25rem 1.31rem 0rem 1.25rem;
+}
+
+.popularbox1h2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.25rem;
+  padding-top: 1.75rem;
+}
+
+.popularbox1span1 {
+  color: #20c08b;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 177.778% */
+  letter-spacing: 0.0125rem;
+  margin-right: 1.25rem;
+}
+
+.popularbox1span2 {
+  color: #ffc942;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 177.778% */
+  letter-spacing: 0.0125rem;
+  margin-right: 1.25rem;
+}
+
+.popularbox2 {
+  width: 22.5rem;
+  height: 27rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 1.94rem;
+  margin-right: 1.94rem;
+}
+
+.popularbox2logo {
+  display: flex;
+  width: 19.9375rem;
+  height: 11.6875rem;
+  padding: 2.6875rem 6.8125rem 2.75rem 6.875rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #f5f5f5;
+  margin: 1.25rem 1.31rem 0rem 1.25rem;
+}
+
+.popularbox3 {
+  width: 22.5rem;
+  height: 27rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.popularbox3logo {
+  display: flex;
+  width: 19.9375rem;
+  height: 11.6875rem;
+  padding: 2.6875rem 6.8125rem 2.75rem 6.875rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: #f5f5f5;
+  margin: 1.25rem 1.31rem 0rem 1.25rem;
+}
+
+.popularbox h2 {
+  color: #333e44;
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 2.625rem */
+}
+
+.popularbox p {
+  color: #475e69;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.6rem */
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.popularspan2 {
+  display: inline-flex;
+  height: 2.0625rem;
+  padding: 0rem 0.625rem 0.0625rem 0.625rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background: #e1ebfb;
+  color: #0086d6;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 228.571% */
+  letter-spacing: 0.0125rem;
+  margin: 1rem 1rem 1.25rem 1.25rem;
+}
+
+.popularspan3 {
+  display: inline-flex;
+  width: 7.25rem;
+  height: 2.0625rem;
+  padding: 0rem 0.5625rem 0.0625rem 0.625rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background: #e1ebfb;
+  color: #0086d6;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 228.571% */
+  letter-spacing: 0.0125rem;
+}

@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/registration.css" />
   </head>
   <body>
     <header class="header">
@@ -40,62 +42,80 @@
       </div>
     </header>
     <main>
-      <h2>Welcome, let's create an account</h2>
-      <p>
-        Create an account to keep track of your customers, and contributors.
-        Once your account has been created then don't forget to verify your
-        account through mail.
-      </p>
-      <label for="First_Name">First Name</label>
-      <input
-        type="text"
-        placeholder="Your first name"
-        name="Your first name"
-        id="name"
-      />
-      <label for="Last_Name">Last Name</label>
-      <input
-        type="text"
-        placeholder="Your last name"
-        name="Your last name"
-        id="lastname"
-      />
-      <label for="Work_Email">Work Email</label>
-      <input
-        type="text"
-        placeholder="Your work email"
-        name="Your work email"
-        id="Email"
-      />
-      <label for="Country">Country</label>
-      <input
-        type="text"
-        placeholder="United States of America"
-        name="United States of America"
-        id="Country"
-      />
-      <label for="Where_did_you_first_hear_about_DestLab?"
-        >Where did you first hear about DestLab?</label
-      >
-      <input
-        type="text"
-        placeholder="Select an option..."
-        name="Select an option..."
-        id="Option"
-      />
-      <label for="Password">Password</label>
-      <input
-        type="text"
-        placeholder="Must be at least 8 characters."
-        name="Must be at least 8 characters."
-        id="Password"
-      />
-      <p>
-        By continuing you agree to the DestLab terms of service and privacy
-        policy.
-      </p>
-      <button>Continue</button>
-      <p>Already registered? Sign In</p>
+      <div class="main">
+        <div class="mainheader">
+          <h1>Welcome, let's create an account</h1>
+          <p>
+            Create an account to keep track of your customers, and contributors.
+            Once your account has been created then don't forget to verify your
+            account through mail.
+          </p>
+        </div>
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span>First Name</span>
+              <input
+                type="text"
+                placeholder="Your first name"
+                name="Your first name"
+                id="name"
+              />
+            </div>
+            <div class="input-box">
+              <span>Last Name</span>
+              <input
+                type="text"
+                placeholder="Your last name"
+                name="Your last name"
+                id="name"
+              />
+            </div>
+            <div class="input-box">
+              <span>Work Email</span>
+              <input
+                type="text"
+                placeholder="Your work email"
+                name="Your work email"
+                id="mail"
+              />
+            </div>
+            <div class="input-box">
+              <span>Country</span>
+              <input
+                type="text"
+                placeholder="United States of America"
+                name="United States of America"
+                id="country"
+              />
+            </div>
+            <div class="input-box">
+              <span>Where did you first hear about DestLab?</span>
+              <input
+                type="text"
+                placeholder="Select an option..."
+                name="Select an option..."
+                id="options"
+              />
+            </div>
+            <div class="input-box">
+              <span>Password</span>
+              <input
+                type="text"
+                placeholder="Must be at least 8 characters."
+                name="Must be at least 8 characters."
+                id="password"
+              />
+            </div>
+          </div>
+        </form>
+        <p>
+          By continuing you agree to the DestLab terms of service and privacy
+          policy.
+        </p>
+        <button>Continue</button>
+        <p>Already registered? Sign In</p>
+      </div>
     </main>
     <footer>
       <div class="footer1">
