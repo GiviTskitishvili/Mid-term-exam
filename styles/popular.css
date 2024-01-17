@@ -1,13 +1,59 @@
 .mainheader {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  background: url(../assets/Popular/Board.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   background-color: #1f2e35;
   width: 100%;
   height: 31.25rem;
 }
 
-.mainheadercontent {
-  display: inline;
+.mainheadercontent h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem; /* 80% */
+  letter-spacing: 0.0125rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.mainheadercontent p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.mainheadercontent button {
+  height: 4.05725rem;
+  padding: 0rem 1.6875rem 0.30725rem 1.6875rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #0086d6;
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.8125rem;
+  letter-spacing: 0.0125rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 9rem;
+  margin-top: 2.2rem;
 }
 
 .mainimg {
@@ -51,6 +97,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 2.87rem;
+  margin-top: 3.19rem;
 }
 
 .popularbox1 {
