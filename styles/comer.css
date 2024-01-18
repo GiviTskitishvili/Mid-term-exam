@@ -87,6 +87,7 @@
   grid-column-gap: 3.12rem;
   grid-row-gap: 3.12rem;
   margin-top: 3.31rem;
+  grid: none;
 }
 
 .comerbox1 {
@@ -362,7 +363,6 @@
   flex-shrink: 0;
   justify-self: end;
   display: flex;
-  background-color: burlywood;
 }
 
 .comerboximg9 {
@@ -381,7 +381,6 @@
   flex-shrink: 0;
   justify-self: start;
   display: flex;
-  background-color: yellow;
 }
 
 .comerboximg10 {

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/registration.css" />
+    <link rel="stylesheet" href="../styles/fonts.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap");
+    </style>
   </head>
   <body>
     <header class="header">
@@ -53,25 +57,27 @@
         </div>
         <form action="#">
           <div class="user-details">
-            <div class="input-box">
-              <span>First Name</span>
-              <input
-                type="text"
-                placeholder="Your first name"
-                name="Your first name"
-                id="name"
-              />
+            <div class="box1">
+              <div class="input-box1">
+                <span>First Name</span>
+                <input
+                  type="text"
+                  placeholder="Your first name"
+                  name="Your first name"
+                  id="name"
+                />
+              </div>
+              <div class="input-box2">
+                <span>Last Name</span>
+                <input
+                  type="text"
+                  placeholder="Your last name"
+                  name="Your last name"
+                  id="name"
+                />
+              </div>
             </div>
-            <div class="input-box">
-              <span>Last Name</span>
-              <input
-                type="text"
-                placeholder="Your last name"
-                name="Your last name"
-                id="name"
-              />
-            </div>
-            <div class="input-box">
+            <div class="input-box3">
               <span>Work Email</span>
               <input
                 type="text"
@@ -80,7 +86,7 @@
                 id="mail"
               />
             </div>
-            <div class="input-box">
+            <div class="input-box4">
               <span>Country</span>
               <input
                 type="text"
@@ -89,7 +95,7 @@
                 id="country"
               />
             </div>
-            <div class="input-box">
+            <div class="input-box5">
               <span>Where did you first hear about DestLab?</span>
               <input
                 type="text"
@@ -98,7 +104,7 @@
                 id="options"
               />
             </div>
-            <div class="input-box">
+            <div class="input-box6">
               <span>Password</span>
               <input
                 type="text"
@@ -109,12 +115,12 @@
             </div>
           </div>
         </form>
-        <p>
-          By continuing you agree to the DestLab terms of service and privacy
-          policy.
+        <p class="final1">
+          By continuing you agree to the DestLab
+          <span>terms of service</span> and <span>privacy policy</span>.
         </p>
-        <button>Continue</button>
-        <p>Already registered? Sign In</p>
+        <button class="button">Continue</button>
+        <p class="final2">Already registered? <span>Sign In</span></p>
       </div>
     </main>
     <footer>
