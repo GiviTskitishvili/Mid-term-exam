@@ -18,7 +18,7 @@
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 80% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
 }
 
@@ -29,7 +29,7 @@
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 1.875rem */
+  line-height: 150%;
   margin: 1.5rem 0 1.94rem 0;
 }
 
@@ -43,7 +43,7 @@
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 3.8125rem; /* 305% */
+  line-height: 3.8125rem;
   letter-spacing: 0.0125rem;
   text-transform: capitalize;
   border-radius: 0.5rem;
@@ -63,7 +63,7 @@
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 88.889% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-bottom: 1rem;
 }
@@ -127,7 +127,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 1.5rem */
+  line-height: 150%;
   margin-bottom: 1rem;
 }
 
@@ -143,7 +143,7 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 228.571% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   border-radius: 0.25rem;
   background: #e1ebfb;
@@ -162,7 +162,7 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 228.571% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   border-radius: 0.25rem;
   background: #e1ebfb;
@@ -231,8 +231,7 @@
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 2.25rem */
-  /* padding: 1.5rem 11.37rem 0.5rem 1.5rem; ეს არის გასაწრორებელი  */
+  line-height: 150%;
 }
 
 .comerh2span1 {
@@ -241,10 +240,9 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 1.6875rem */
+  line-height: 150%;
   margin-left: 11.38rem;
   margin-top: 0.31rem;
-  /* margin: 1.81rem 1.44rem 0.75rem; ესეც გასასწორებელია ყველა სათითაოდ არის გასასწორებელი */
 }
 .comerh2span2 {
   color: #21d789;
@@ -252,10 +250,9 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 1.6875rem */
+  line-height: 150%;
   margin-left: 8.69rem;
   margin-top: 0.31rem;
-  /* margin: 1.81rem 1.44rem 0.75rem; ესეც გასასწორებელია ყველა სათითაოდ არის გასასწორებელი */
 }
 .comerh2span3 {
   color: #009bff;
@@ -263,10 +260,9 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 1.6875rem */
+  line-height: 150%;
   margin-left: 3.75rem;
   margin-top: 0.31rem;
-  /* margin: 1.81rem 1.44rem 0.75rem; ესეც გასასწორებელია ყველა სათითაოდ არის გასასწორებელი */
 }
 
 .comerh2span4 {
@@ -275,7 +271,7 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 1.6875rem */
+  line-height: 150%;
   margin-left: 9.25rem;
   margin-top: 0.31rem;
 }
@@ -391,4 +387,88 @@
   border-radius: 0.5rem;
   background: #f5f5f5;
   margin: 2.315rem 0 2.315rem 1.5025rem;
+}
+
+.navbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 0.3rem;
+  margin-top: 4.37rem;
+  margin-bottom: 3.94rem;
+}
+
+.navbox1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  background: #1f2e35;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox3 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox4 {
+  width: 4.5625rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
 }

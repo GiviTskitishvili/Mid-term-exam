@@ -1,6 +1,6 @@
 .main {
-  width: 28rem; /* 330px */
-  height: 28rem; /* 330px */
+  width: 28rem;
+  height: 28rem;
   border: 1px dashed #ccc;
   position: relative;
   top: 0;

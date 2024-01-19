@@ -16,10 +16,6 @@ header {
   margin: 0 auto;
 }
 
-.header .header-section {
-  width: 33%;
-}
-
 .header-section.auth-section {
   display: flex;
   justify-content: end;

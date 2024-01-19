@@ -8,7 +8,6 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  /* border-bottom: 1px solid #666; */
 }
 
 #footer1h1,
@@ -28,7 +27,7 @@
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 88.889% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-top: 2.5rem;
 }
@@ -40,7 +39,7 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.6875rem; /* 150% */
+  line-height: 1.6875rem;
   letter-spacing: 0.0125rem;
   margin: 1.5rem 0 2rem 0;
 }
@@ -67,7 +66,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.125rem; /* 112.5% */
+  line-height: 1.125rem;
   letter-spacing: 0.01875rem;
   border: none;
   cursor: pointer;
@@ -88,6 +87,30 @@
 .footsection1 {
   width: 25%;
   padding: 0 15px;
+}
+
+.footerimgh1 {
+  display: flex;
+  text-align: center;
+}
+
+.footerimgh1 h1 {
+  color: #f4f4f4;
+  font-family: "Montserrat Alternates";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.1875rem;
+  margin: 0.25rem 0 0.29rem 1rem;
+}
+
+.footersocial {
+  margin-top: 1rem;
+}
+
+#social2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .footsection1 h4 {
@@ -166,5 +189,5 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem; /* 187.5% */
+  line-height: 1.875rem;
 }

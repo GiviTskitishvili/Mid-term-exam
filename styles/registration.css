@@ -18,7 +18,7 @@ main {
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1rem; /* 133.333% */
+  line-height: 1rem;
 }
 
 .final1 span {
@@ -62,7 +62,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   display: flex;
   align-self: stretch;
   margin: 0.5rem 0 2.5rem 0;
@@ -89,7 +89,7 @@ main {
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1rem; /* 133.333% */
+  line-height: 1rem;
 }
 
 .user-details input {
@@ -111,7 +111,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   padding: 0.75rem;
 }
 
@@ -126,7 +126,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   padding: 0.75rem;
 }
 
@@ -141,7 +141,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   padding: 0.75rem;
 }
 
@@ -161,7 +161,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   padding: 0.75rem;
 }
 
@@ -176,7 +176,7 @@ main {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; /* 142.857% */
+  line-height: 1.25rem;
   padding: 0.75rem;
 }
 

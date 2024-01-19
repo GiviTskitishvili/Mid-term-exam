@@ -18,7 +18,7 @@
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 80% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-left: 2rem;
   margin-bottom: 1.5rem;
@@ -78,7 +78,7 @@
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 2rem; /* 88.889% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-bottom: 1rem;
 }
@@ -135,7 +135,7 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 177.778% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-right: 1.25rem;
 }
@@ -146,7 +146,7 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 177.778% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin-right: 1.25rem;
 }
@@ -203,7 +203,7 @@
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 2.625rem */
+  line-height: 150%;
 }
 
 .popularbox p {
@@ -212,7 +212,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%; /* 1.6rem */
+  line-height: 160%;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
@@ -231,7 +231,7 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 228.571% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
   margin: 1rem 1rem 1.25rem 1.25rem;
 }
@@ -251,6 +251,89 @@
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem; /* 228.571% */
+  line-height: 2rem;
   letter-spacing: 0.0125rem;
+}
+
+.navbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 0.3rem;
+  margin-bottom: 3.94rem;
+}
+
+.navbox1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  background: #1f2e35;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox3 {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
+}
+
+.navbox4 {
+  width: 4.5625rem;
+  height: 2.5rem;
+  padding: 0.25rem 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: #1f2e35;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125rem;
+  cursor: pointer;
 }
